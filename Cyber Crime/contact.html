@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Crime</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <link rel="shortcut icon" type="x-con" href="images/icone.png">
+</head>
+<body>
+    <div class="hero">
+        <nav id="ola">
+            
+            <img src="images/logo3.png" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learn.html">Learn</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="savecontact.html">Save Contact</a></li>
+            </ul>
+        </nav>
+        <section id="contact-details" class="selection-p1">
+            <div class="details">
+                <span>GET IN TOUCH</span>
+                <h2>Visit one of our agency locations or contact us today</h2>
+                <div>
+                    <li>
+                        <i class='bx bx-map-alt'></i>
+                        <p>56 Glassford Street Glasgow G1 1UL New York</p>
+                    </li>
+                    <li>
+                        <i class='bx bx-envelope'></i>
+                        <p>help.me@hotmail.com</p>
+                    </li>
+                    <li>
+                        <i class='bx bxs-phone'></i>
+                        <p>+442035142048</p>
+                    </li>
+            
+                </div>
+            </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.236952609885!2d-4.250819884094952!3d55.858555180581725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488846a1bd9f3a95%3A0xdbd45e47fa28046d!2sGadgetsandGizmos!5e0!3m2!1sen!2s!4v1672005996772!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+   
+    <section id="form-details">
+        <h4>SING UP</h4><br>
+         
+        <form onsubmit="saveStudent()">
+        <label for="firstname">NAME:</label>
+        <input type="text"  id="name"> <br>
+
+        <label for="email">E-MAIL:</label>
+        <input type="email"  id="email"> <br>
+
+        <label for="password">PASSWORD:</label>
+        <input type="password"  id="password"> <br>
+
+        <label for="birthdate">BIRTHDATE:</label>
+        <input type="date" id="birthday">  <br>
+
+        <div class="gender">
+            <label>GENDER:</label>
+            <div class="gender-options">
+                <label for="male">M:</label>
+                <input type="radio" name="gender" id="male" value="male">
+
+                <label for="female">F:</label>
+                <input type="radio" name="gender" id="female" value="female">
+            </div>
+  <br>
+        <button type="submit" name="submit" value="Save">Save</button>
+
+    </section>
+
+
+    <section id="newsletter" class="selection-p1 selection-m1">
+            <div class="newstext">
+                <h4>Sign Up For Newsletters</h4>
+                <p>Get email updates for<span> various information.</span></p>
+            </div>
+            <div class="form">
+                  <input type="text" placeholder="Your email address">
+                  <button onclick="Myfunction()">Sign Up</button>
+            </div>
+            <script>
+                function Myfunction()
+               {
+               alert("Done!");
+                }
+                </script>
+           </section>
+    </section>
+        
+           <footer class="selection-p1">
+            <div class="col">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong>56 Glassford Street Glasgow G1 1UL New York</p>
+                <p><strong>Phone:</strong>+442035142048</p>
+        
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <a href="https://www.facebook.com/" class='bx bxl-facebook'></a>
+                        <a href="https://twitter.com/?lang=en" class='bx bxl-twitter'></a>
+                        <a href="https://www.instagram.com/" class='bx bxl-instagram' ></a>
+                        <a href="https://www.pinterest.com/" class='bx bxl-pinterest-alt' ></a>
+                        <a href="https://www.youtube.com/" class='bx bxl-youtube' ></a>
+        
+                    </div>
+                </div>
+            </div>
+        <address>
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </address>
+        <address>
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+        </address>
+            <div class="col install">
+                  <h4>Install App</h4>
+                  <p>Form App Store or Google Play</p>
+                  <p>Secured Payment Gateways</p>
+            </div>
+            <div class="copyright">
+                <p>© 2023, Tech etc - HTML CSS JavaScript WebSite Template</p>
+            </div>
+       </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

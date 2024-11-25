@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Crime</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <link rel="shortcut icon" type="x-con" href="images/icone.png">
+</head>
+<body>
+    <div class="hero">
+        <nav id="ola">
+            
+            <img src="images/logo3.png" class="logo">
+            <ul>
+                <li><a class="active"href="index.html">Home</a></li>
+                <li><a href="learn.html">Learn</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button type="button" class="buton" onclick="toggleBtn()" id="btn"><span></span></button>
+        </nav>
+     <div class="lamp-container">
+          <img src="images/lamp.png" class="lamp">
+          <img src="images/light.png" class="light" id="light">
+     </div>
+     
+     <div class="text-container">
+        <h3><b><i>CYBER</i><b><br></h3>
+        <h5><b><i>CRIMES</i></b></h5>
+        <h1>KRIMET<br>KIBERNETIKE</h1>
+        <p>NDIKIMI I KRIMEVE KIBERNETIKE DHE PRIVATËSIA NË INTERNET</p>
+        <a id="link" href="file:///C:/Users/ADMIN/Desktop/Cyber%20Crime/learn.html">Check All Lessons</a>
+     <div class="control">
+        <p>04</p>
+     <div class="line"><span></span></div>
+         <p>05</p>
+      </div>
+      </div>
+
+    <section id="newsletter" class="selection-p1 selection-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get email updates for<span> various information.</span></p>
+        </div>
+        <div class="form">
+              <input type="email" placeholder="Your email address">
+              <button onclick="Myfunction()" class="normal">Sign Up</button>
+        </div>
+    <script>
+         function Myfunction()
+        {
+        alert("Done!");
+         }
+         </script>
+    </section>
+    
+       <footer class="selection-p1">
+        <div class="col">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 56 Glassford Street Glasgow G1 1UL New York</p>
+            <p><strong>Phone:</strong> +442035142048</p>
+        
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com/" class='bx bxl-facebook'></a>
+                    <a href="https://twitter.com/?lang=en" class='bx bxl-twitter'></a>
+                    <a href="https://www.instagram.com/" class='bx bxl-instagram' ></a>
+                    <a href="https://www.pinterest.com/" class='bx bxl-pinterest-alt' ></a>
+                    <a href="https://www.youtube.com/" class='bx bxl-youtube' ></a>
+    
+                </div>
+            </div>
+        </div>
+    <address>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </address>
+    <address>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+    </address>
+         <div class="col install">
+              <h4>Install App</h4>
+              <p>Form App Store or Google Play</p>
+              <p>Secured Payment Gateways</p>
+         </div>
+    
+         <div class="copyright">
+            <p>© 2023, Tech etc - HTML CSS JavaScript WebSite Template</p>
+         
+       </footer>
+    </div>
+    </div>
+    
+<script>
+    var btn = document.getElementById("btn");
+    var light = document.getElementById("light");
+
+    function toggleBtn(){
+        btn.classList.toggle("active");
+        light.classList.toggle("on");
+    }
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
